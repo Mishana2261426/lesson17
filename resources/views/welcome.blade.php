@@ -81,7 +81,7 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Lesson 16
+                    Lesson 17
                 </div>
 
                 <div class="links">

@@ -44,6 +44,8 @@ class GenerateDummyData extends Command
         $count = $this->argument('count');
         $this->info("Generating $count random records");
 
-        
+        for ($i = 0; $i < $count; $i++) { 
+            factory(Car::class)->create();
+        }
     }
 }
